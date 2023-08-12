@@ -1,8 +1,7 @@
 class Block {
-    constructor (id, type, context) {
-        this.id = id
+    constructor (type, data) {
         this.type = type
-        this.context = context
+        this.data = data
     }
 }
 

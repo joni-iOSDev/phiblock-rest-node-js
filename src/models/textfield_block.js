@@ -1,10 +1,10 @@
 const Block = require('./block.js')
 
 class TextfieldBlock extends Block {
-  constructor (id, data, placeholder = String, context) {
-    const type = "textfield_block"; 
-    super(id, type, context);
-    this.placeholder = placeholder;
+  constructor (id, placeholder) {
+    const type = "textfield"; 
+    const data = {id, placeholder};
+    super(type, data);
   }
 }
 

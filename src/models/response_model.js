@@ -1,7 +1,7 @@
 class ResponseModel {
   constructor(status, message, meta, data) {
     this.response = {
-      status: status,
+      statusCode: status,
       message: message,
       meta: meta,
     };
